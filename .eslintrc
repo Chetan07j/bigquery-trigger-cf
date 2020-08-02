@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": ["eslint:recommended", "google", "airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "max-len": [
+      "error",
+      100,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": false,
+        "ignoreTemplateLiterals": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "MISSING_EVENT": "event or bucket name or filename is missing.",
+  "MISSING_CONTEXT": "context or eventId is missing.",
+  "MISSING_ENV_VAR_PREFIX": "missing environment variable"
+}

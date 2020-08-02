@@ -1,0 +1,19 @@
+{
+  "statistics": {
+    "creationTime": "1596141345671",
+    "startTime": "1596141345709",
+    "endTime": "1596141385831",
+    "totalBytesProcessed": "990538488",
+    "query": {
+      "totalBytesProcessed": "990538488",
+      "totalBytesBilled": "1008730112",
+      "totalSlotMs": "268900",
+      "statementType": "SCRIPT"
+    },
+    "totalSlotMs": "268900",
+    "numChildJobs": "3"
+  },
+  "status": {
+    "state": "DONE"
+  }
+}

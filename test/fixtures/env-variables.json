@@ -1,0 +1,6 @@
+{
+  "LOCATION": "EU",
+  "DATASET": "my_dataset",
+  "TABLE": "employee",
+  "NODE_ENV": "test"
+}

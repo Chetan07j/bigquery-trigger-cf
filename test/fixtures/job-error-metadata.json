@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "status": {
+      "errorResult": {
+        "reason": "invalidQuery",
+        "location": "query",
+        "message": "Not found: Dataset ingka-pmcw-dh-dev:hrpot_test_bquery1 was not found"
+      },
+      "state": "DONE"
+    }
+  }
+}

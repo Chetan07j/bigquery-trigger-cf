@@ -1,0 +1,45 @@
+{
+  "name": "bigquery-trigger-cf",
+  "version": "1.0.0",
+  "description": "Storage triggered Cloud Function to execute/run BigQuery statement",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint -f json -o eslint-report.json .",
+    "lint:fix": "eslint . --fix",
+    "sonar": "sonar-scanner",
+    "test": "mocha test/** --timeout 10000 --exit",
+    "test-coverage": "nyc --reporter=lcov --reporter=text npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Chetan07j/bigquery-trigger-cf.git"
+  },
+  "keywords": [
+    "bigquery",
+    "storage-trigger",
+    "cloud-function",
+    "sinon",
+    "stub"
+  ],
+  "author": "chetan0779@gmaol.com",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.0.1",
+    "@google-cloud/logging-winston": "^4.0.0",
+    "@google-cloud/storage": "^5.1.2",
+    "chai-as-promised": "^7.1.1",
+    "sonarqube-scanner": "^2.7.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2"
+  }
+}
